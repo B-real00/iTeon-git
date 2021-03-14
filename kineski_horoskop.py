@@ -1,4 +1,4 @@
-# ZADATAK 1
+#  ZADATAK 1
 '''
 Prema staroj legendi, Buda je pozvao sve životinje na veliku proslavu.Međutim, 
 samo 12 životinja se odazvalo pozivu: pacov,bivo, tigar, zec, zmaj, zmija, konj, 
