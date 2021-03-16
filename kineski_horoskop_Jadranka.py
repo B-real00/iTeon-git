@@ -13,3 +13,4 @@ godine rođenja osobe, odredite njen astrološki znak i ispišete korisniku na  
 
 astroloske_zivotinje =['pacov', 'vo', 'tigar', 'zec', 'zmaj', 'zmija',
 'konj','koza', 'majmun', 'pjetao', 'pas', 'svinja']
+
