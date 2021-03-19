@@ -13,3 +13,9 @@ godine rođenja osobe, odredite njen astrološki znak i ispišete korisniku na  
 
 astroloske_zivotinje =['pacov', 'vo', 'tigar', 'zec', 'zmaj', 'zmija',
 'konj','koza', 'majmun', 'pjetao', 'pas', 'svinja']
+
+godina=int(input('Unesi godinu rodjenja: '))
+broj_ciklusa=(godina-1900)%12
+for i in range(12):
+    if broj_ciklusa==i:
+        print('Vas astroloski znak u kineskom horoskopu je: ', astroloske_zivotinje[i])
