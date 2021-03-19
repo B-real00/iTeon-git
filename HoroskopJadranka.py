@@ -16,13 +16,14 @@ astroloske_zivotinje =['pacov', 'vo', 'tigar', 'zec', 'zmaj', 'zmija',
 
 def kineski_horoskop():
     godine_korisnika=int(input("Unesite godinu Vaseg rodjenja: "))
-    if godine_korisnika>=1900:
+    if godine_korisnika>1900:
         broj_ciklusa=(godine_korisnika-1900)%12
         astroloski_znak=astroloske_zivotinje[broj_ciklusa]
         return astroloski_znak
     else:
         return "Pogresan unos, pokusajte ponovo!"
         
+
 print("Vas astroloski znak je :", kineski_horoskop())
 
 
