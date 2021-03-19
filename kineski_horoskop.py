@@ -13,3 +13,22 @@ godine rođenja osobe, odredite njen astrološki znak i ispišete korisniku na  
 
 astroloske_zivotinje =['pacov', 'vo', 'tigar', 'zec', 'zmaj', 'zmija',
 'konj','koza', 'majmun', 'pjetao', 'pas', 'svinja']
+
+
+def is_valid(godina):
+    if int(godina) > 1900 and len(godina) >= 4:
+        return True
+    else:
+        return False
+def ciklus(godina):
+    res = int(godina) - 1900
+    return res%12
+
+godina = input("Unesite godinu: ")
+while is_valid(godina) == False:
+    godina = input("Unesite godinu: ")
+print(astroloske_zivotinje[ciklus(godina)])
+
+
+
+
